@@ -1,0 +1,154 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77b300 3px solid;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background: #77b300;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#hero .btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px
+    ;
+    margin-top: 20px;
+    display: inline-block;
+    }
+    
+    #hero .btn
+    {
+    background: #555;
+    }
+    
+    /* Features Section */
+    #features {
+    padding: 50px 0;
+    text-align: center;
+    }
+    
+    #features h2 {
+    margin-bottom: 30px;
+    }
+    
+    .feature-box {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    }
+    
+    .feature-box h3 {
+    margin-bottom: 10px;
+    }
+    
+    /* About Section */
+    #about {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+    }
+    
+    #about h2 {
+    margin-bottom: 20px;
+    }
+    
+    /* Contact Section */
+    #contact {
+    padding: 50px 0;
+    text-align: center;
+    }
+    
+    #contact h2 {
+    margin-bottom: 20px;
+    }
+    
+    #contact form {
+    max-width: 600px;
+    margin: auto;
+    }
+    
+    #contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    
+    #contact button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    #contact button
+    {
+    background: #555;
+    }
+    
+    /* Footer */
+    footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    }
